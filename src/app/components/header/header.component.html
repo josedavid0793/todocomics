@@ -1,0 +1,22 @@
+<header>
+    <div class="div-logo">
+        <img class="img-logo" src="../../../assets/comics.png" alt="comics">
+    </div>
+    <nav [ngClass]="{ 'show-menu': menuMobile }">
+        <ul>
+            <li><a class="li-a" [routerLink]="['/home']">inicio</a></li>
+            <li><a class="li-a">categorias</a></li>
+            <li><a class="li-a">nuevo</a></li>
+            <li><a class="li-a">contacto</a></li>
+        </ul>
+    </nav>
+    <div class="div-options">
+        <input class="input-button-1" type="button" value="Publicar" />
+        <input class="input-button-2" type="button" value="Ingreso" />
+        <input class="input-button-search" type="search" placeholder="Buscar..." />
+        <i class="fa fa-search"></i>
+    </div>
+    <div class="div-menu-mobile" (click)="toggleMenu($event)" #menuIcon>
+        <img src="../../../assets/menu.png">
+    </div>
+</header>
