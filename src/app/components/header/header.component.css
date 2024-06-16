@@ -1,5 +1,5 @@
 header {
-  background: blueviolet;
+  background: #EAFAF1;
   block-size: 100px;
   display: flex;
   inline-size: 100%;
@@ -47,7 +47,7 @@ li {
 }
 
 .input-button-2 {
-  background: #fff;
+  background: #ABEBC6;;
   block-size: 42px;
   border: 1px solid transparent; /*borrar borde del boton*/
   border-radius: 25px;
@@ -71,8 +71,8 @@ li {
 }
 .fa-search {
   position: absolute;
-  inset-inline-end: 8%;
-  inset-block-start: 17%;
+  inset-inline-end: 8% !important;
+  inset-block-start: 17% !important;
   transform: translateY(-50%);
   color: #000;
 }
@@ -111,11 +111,11 @@ li {
     text-align: start;
   }
   ul {
-    margin-block-start: 86px;
+    margin-block-start: 15px;
   }
   nav ul li a {
     font-size: 20px;
-    color: #fff;
+    color: #000;
   }
 
   nav.show-menu {
@@ -136,7 +136,7 @@ li {
   }
   .fa-search {
     inset-block-start: 50px;
-    inset-inline-start: 76%;
+    inset-inline-start: 67%;
   }
   .input-button-search {
     block-size: 34px;
@@ -146,6 +146,25 @@ li {
   .img-logo {
     block-size: 45px;
     inline-size: 45px;
+  }
+  .input-button-1{
+    block-size: 35px;
+    font-size: 10px;
+    inline-size: 58px;
+    inset-inline-start: 14%;
+    position: absolute;
+  }
+  .input-button-2{
+    background: #ABEBC6;
+    block-size: 35px;
+    font-size: 10px;
+    inline-size: 58px;
+    inset-inline-start: 28%;
+    position: absolute;
+  }
+  .input-button-search{
+    position: absolute;
+    inset-inline-start: 44%;
   }
 }
 
@@ -160,11 +179,11 @@ li {
     text-align: start;
   }
   ul {
-    margin-block-start: 86px;
+    margin-block-start: 15px;
   }
   nav ul li a {
     font-size: 20px;
-    color: #fff;
+    color: #000;
   }
 
   nav.show-menu {
@@ -184,8 +203,8 @@ li {
     margin-inline-end: 20px;
   }
   .fa-search {
-    inset-block-start: 50px;
-    inset-inline-start: 76%;
+    inset-block-start: 50px !important;
+    inset-inline-start: 67% !important;
   }
   .input-button-search {
     block-size: 34px;
@@ -195,5 +214,24 @@ li {
   .img-logo {
     block-size: 45px;
     inline-size: 45px;
+  }
+  .input-button-1{
+    block-size: 35px;
+    font-size: 10px;
+    inline-size: 58px;
+    inset-inline-start: 14%;
+    position: absolute;
+  }
+  .input-button-2{
+    background: #ABEBC6;
+    block-size: 35px;
+    font-size: 10px;
+    inline-size: 58px;
+    inset-inline-start: 28%;
+    position: absolute;
+  }
+  .input-button-search{
+    position: absolute;
+    inset-inline-start: 44%;
   }
 }
