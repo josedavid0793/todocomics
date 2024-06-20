@@ -8,7 +8,7 @@ body{
 }
 
 app-home{
-    background: #E59866;
+    background: #FBFCFC;
     display: flex;
     flex-direction: column;
 }

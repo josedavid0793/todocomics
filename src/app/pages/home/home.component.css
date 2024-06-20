@@ -1,0 +1,8 @@
+.div-principal-home {
+  display: flex;
+  flex-direction: column;
+  background: #F8F9F9;
+}
+.div-title {
+  text-align: center;
+}

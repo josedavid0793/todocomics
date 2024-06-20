@@ -51,7 +51,7 @@ li {
   block-size: 42px;
   border: 1px solid transparent; /*borrar borde del boton*/
   border-radius: 25px;
-  color: #808b96;
+  color: #000;
   inline-size: 100px;
   margin-block-start: 23px;
   margin-inline-end: 15px;
@@ -72,7 +72,7 @@ li {
 .fa-search {
   position: absolute;
   inset-inline-end: 8% !important;
-  inset-block-start: 17% !important;
+  inset-block-start: 9% !important;
   transform: translateY(-50%);
   color: #000;
 }
@@ -87,10 +87,14 @@ li {
 .div-menu-mobile {
   display: none;
 }
-@media (min-width: 1024px) and (max-width: 1366px){
+
+ul li a{
+  color: #000;
+}
+@media (min-width: 1024px) and (max-width: 1190px){
     .fa-search {
-        inset-block-start: 4%;
-        inset-inline-end: 2%;
+        inset-block-start: 4% !important;
+        inset-inline-end: 2% !important;
       }
       .input-button-search{
         margin-inline-end: 14px;
@@ -100,7 +104,7 @@ li {
         color: #000;
       }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px)and (max-width: 1024px) {
   header {
     justify-content: space-between;
     block-size: auto;
@@ -135,8 +139,8 @@ li {
     margin-inline-end: 20px;
   }
   .fa-search {
-    inset-block-start: 50px;
-    inset-inline-start: 67%;
+    inset-block-start: 50px !important;
+    inset-inline-start: 57% !important;
   }
   .input-button-search {
     block-size: 34px;
